@@ -1,0 +1,8 @@
+language: julia
+os:
+  - linux
+julia:
+  - release
+script:
+  - which julia
+  - julia -e 'print(Pkg.dir())'
